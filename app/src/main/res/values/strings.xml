@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BusinessLink</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="userName">User Email</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign in</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="fullName">Full Name</string>
+    <string name="companyName">Company Name</string>
+    <string name="designation">Designation</string>
+    <string name="companyType">Company Type</string>
+    <string name="companyLocation">Company Address</string>
+    <string name="registrationActivity">Web Address</string>
+    <string name="emailAddress">Email</string>
+    <string name="skype">Skype</string>
+    <string name="title_activity_individual_view">IndividualViewActivity</string>
+    <string name="viewFullName">Full Name</string>
+</resources>
