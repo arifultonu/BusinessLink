@@ -20,4 +20,5 @@
     <string name="skype">Skype</string>
     <string name="title_activity_individual_view">IndividualViewActivity</string>
     <string name="viewFullName">Full Name</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
 </resources>
