@@ -21,58 +21,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/viewFullName"
-        android:id="@+id/editFullName"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_toRightOf="@+id/imageView2"
-        android:layout_marginLeft="35dp"
-        android:layout_marginStart="35dp"
-        android:layout_alignParentEnd="false"
-        android:width="220dp"
-        android:textSize="22sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Com. Name"
-        android:id="@+id/editCoName"
-        android:width="220dp"
-        android:textSize="18sp"
-        android:layout_below="@+id/editFullName"
-        android:layout_alignRight="@+id/editFullName"
-        android:layout_alignEnd="@+id/editFullName" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Country"
-        android:id="@+id/editLocation"
-        android:width="220dp"
-        android:textSize="18sp"
-        android:layout_above="@+id/textView3"
-        android:layout_alignLeft="@+id/editDesignation"
-        android:layout_alignStart="@+id/editDesignation" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Web :"
         android:id="@+id/textView3"
         android:layout_below="@+id/imageView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="100dp"
         android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="www.google.com"
-        android:id="@+id/editWebAddress"
-        android:textSize="18sp"
-        android:layout_above="@+id/textView4"
-        android:layout_alignLeft="@+id/editLocation"
-        android:layout_alignStart="@+id/editLocation" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -88,16 +43,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="google@gmail.com"
-        android:id="@+id/editEmailAddress"
-        android:textSize="18sp"
-        android:layout_above="@+id/textView5"
-        android:layout_alignLeft="@+id/editWebAddress"
-        android:layout_alignStart="@+id/editWebAddress" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Skype :"
         android:id="@+id/textView5"
         android:textSize="18sp"
@@ -105,27 +50,6 @@
         android:layout_alignRight="@+id/textView8"
         android:layout_alignEnd="@+id/textView8"
         android:layout_marginTop="31dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="googleSkype"
-        android:id="@+id/editSkype"
-        android:textSize="18sp"
-        android:layout_above="@+id/textView8"
-        android:layout_alignLeft="@+id/editFullName"
-        android:layout_alignStart="@+id/editFullName" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Designation"
-        android:id="@+id/editDesignation"
-        android:width="220dp"
-        android:textSize="18sp"
-        android:layout_above="@+id/editLocation"
-        android:layout_alignLeft="@+id/editCoName"
-        android:layout_alignStart="@+id/editCoName" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -141,16 +65,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="01717819612"
-        android:id="@+id/editMobileNo"
-        android:textSize="18sp"
-        android:layout_alignTop="@+id/textView8"
-        android:layout_alignLeft="@+id/editSkype"
-        android:layout_alignStart="@+id/editSkype" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="About :"
         android:id="@+id/textView6"
         android:textSize="18sp"
@@ -159,13 +73,86 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="about business, product, target audience"
-        android:id="@+id/textView7"
-        android:textSize="18sp"
+        android:id="@+id/editText"
+        android:width="280dp"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:width="280dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:width="280dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:width="280dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:width="280dp"
         android:layout_alignTop="@+id/textView6"
-        android:layout_alignLeft="@+id/viewMobileNo"
-        android:layout_alignStart="@+id/viewMobileNo" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:width="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:width="260dp"
+        android:layout_below="@+id/editText6"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:width="260dp"
+        android:layout_below="@+id/editText7"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Change"
+        android:id="@+id/btnSaveChange"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:width="320dp" />
+
 </RelativeLayout>
